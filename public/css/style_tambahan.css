@@ -96,3 +96,8 @@
 .wrapper #custom-btn:hover {
     background: #3a8ffe;
 }
+
+.navbar-fixed {
+    position: fixed;
+
+}

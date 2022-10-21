@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
+.navbar-fixed {
+    @apply fixed z-[999];
+}

@@ -4,15 +4,13 @@
 <head>
     @include('includes.head')
 
-    <!-- Scripts -->
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    {{-- <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <script src="{{ asset('js/app.js') }}"></script> --}}
 
-    @vite('resources/css/app.css')
-    <!-- Styles -->
     @livewireStyles
 </head>
 
-<body class="dark">
+<body class="dark" style="font-family: quicksand">
 
 
     <div class="mx-auto">

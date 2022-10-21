@@ -3,6 +3,7 @@
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
 <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+<script src="{{ asset('js/app.js') }}"></script>
 <script>
     AOS.init();
 
@@ -52,4 +53,21 @@
         document.getElementById("chartRadar"),
         configRadarChart
     );
+
+
+    window.onscroll = function() {
+        const header = document.querySelector('header');
+        const fixedNav = header.offsetTop;
+        const navTop = document.querySelector('#navTop');
+
+        if (window.pageYOffset > fixedNav) {
+            header.classList.remove('absolute');
+            header.classList.add('bg-transparent', 'backdrop-blur', 'fixed', 'text-gray-900');
+            navTop.classList.add('hidden');
+        } else {
+            header.classList.add('absolute');
+            header.classList.remove('bg-transparent', 'backdrop-blur', 'fixed', 'text-gray-900');
+            navTop.classList.remove('hidden');
+        }
+    }
 </script>

@@ -143,7 +143,8 @@
     <div class="text-serv-bg">
 
         <a class="" href="#">
-            <img src="{{ asset('storage/profile/logo.png') }}" alt="logo" class="object-center mx-auto my-4 ">
+            <img src="{{ asset('storage/profile/logo.png') }}" alt="logo" class="object-center mx-auto my-4"
+                width="45px">
         </a>
 
         <div class="flex items-center pt-8 pl-5 space-x-2 border-t border-gray-100">

@@ -91,7 +91,7 @@
                                             <td class="py-4">{{ $loop->iteration }}</td>
                                             <td class="py-4 img flex">
                                                 <img class="rounded-md mob:w-auto" width="80px"
-                                                    src="{{ asset('storage/article/thumbnail' . $user->profile_photo_path) }}"
+                                                    src="{{ asset('storage/pemerintahan/perangkat/' . $item->photo) }}"
                                                     alt="image">
                                             </td>
                                             <td class="py-4">

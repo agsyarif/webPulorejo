@@ -2,7 +2,7 @@
 
 @section('content')
     {{-- hero start --}}
-    <div class="">
+    <div class="" style="font-family: quicksand">
         <div class="w-full h-screen bg-no-repeat bg-fixed bg-cover"
             style="background-image: url('https://images.unsplash.com/photo-1442544213729-6a15f1611937?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80')">
             {{-- style="background-image: url('build/assets/images/web/hero.png')"> --}}

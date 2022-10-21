@@ -14,11 +14,8 @@
     @include('includes.dashboard.style')
 
     @method('after-style')
-
-    <!-- Scripts -->
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
-
-    @vite('resources/css/app.css')
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <script src="{{ asset('js/app.js') }}"></script>
     <!-- Styles -->
     @livewireStyles
 </head>

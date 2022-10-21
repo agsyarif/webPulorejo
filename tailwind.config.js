@@ -17,9 +17,10 @@ module.exports = {
             colors: {
                 transparent: 'transparent',
                 current: 'currentColor',
+                trans: 'rgba(28, 75, 105, 0.5)',
                 'navy': {
                     1: '#1C4B69',
-                    2: '#223B50'
+                    2: '#223B50',
                 }
             }
         },
